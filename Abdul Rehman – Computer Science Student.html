@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abdul Rehman – Computer Science Student</title>
+<meta name="description" content="Abdul Rehman, Computer Science student in Karachi. Python, C++, HTML, and cyber security in progress.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,600&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FBFDFD; --ink:#14232B; --muted:#4F626B; --teal:#8FDCDF; --deep:#0E5A63; --line:#D5E4E6; --card:#FFFFFF;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0F1A1F; --ink:#E8F2F3; --muted:#9DB2B8; --teal:#8FDCDF; --deep:#8FDCDF; --line:#25383F; --card:#15252B; color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0F1A1F; --ink:#E8F2F3; --muted:#9DB2B8; --teal:#8FDCDF; --deep:#8FDCDF; --line:#25383F; --card:#15252B; color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Instrument Sans",system-ui,sans-serif;font-size:1.0625rem;line-height:1.6}
+main{max-width:860px;margin:0 auto;padding:0 1.5rem 4rem}
+h1,h2,h3{font-family:"Bricolage Grotesque","Instrument Sans",system-ui,sans-serif;margin:0;line-height:1.05}
+a{color:var(--deep)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--deep);outline-offset:3px;border-radius:4px}
+
+.hero{position:relative;padding:5.5rem 0 3.5rem}
+.hero .disc{position:absolute;left:-1.2rem;top:3.2rem;width:clamp(120px,24vw,200px);aspect-ratio:1;border-radius:50%;background:var(--teal);opacity:.9}
+.hero h1{position:relative;font-weight:300;font-size:clamp(3rem,13vw,7.5rem);letter-spacing:-.02em;margin-left:clamp(.5rem,5vw,3rem)}
+.hero .role{position:relative;display:inline-block;margin:1.6rem 0 0 clamp(.5rem,5vw,3rem);padding:.35rem 1.4rem;border:1px solid var(--ink);border-radius:999px;font-weight:500}
+.hero p{position:relative;max-width:34rem;margin:1.6rem 0 0 clamp(.5rem,5vw,3rem);color:var(--muted)}
+
+section{padding:2.6rem 0 0}
+h2{font-weight:600;font-size:1.7rem;margin-bottom:1.1rem}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}
+.skills div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem}
+.skills h3{font-size:1.1rem;font-weight:600;margin-bottom:.7rem}
+.skills ul{list-style:none;margin:0;padding:0}
+.skills li{padding:.25rem 0}
+.skills .tag{display:inline-block;margin-left:.4rem;padding:.05rem .6rem;border-radius:999px;background:var(--teal);color:#0F2A30;font-size:.85rem;font-weight:500}
+
+.cert li,.soft li{margin:.3rem 0}
+.cert{padding-left:1.2rem;margin:0}
+.exp{border-left:4px solid var(--teal);padding:.2rem 0 .2rem 1.3rem}
+.exp h3{font-size:1.25rem;font-weight:600}
+.exp p{margin:.4rem 0 0;color:var(--muted)}
+
+.about p,.next p{max-width:40rem;margin:0 0 1rem}
+.skills li .d{display:block;color:var(--muted);font-size:.92rem;line-height:1.45}
+.skills li{padding:.45rem 0}
+.contact{margin-top:3rem;padding:2rem;border-radius:18px;background:var(--teal);color:#0F2A30}
+.contact h2{margin-bottom:.6rem}
+.contact p{margin:.2rem 0}
+.contact a{color:#0F2A30;font-weight:600;overflow-wrap:anywhere}
+footer{margin-top:2.5rem;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="disc" aria-hidden="true"></div>
+    <h1>Abdul Rehman</h1>
+    <span class="role">Computer Science student</span>
+    <p>I’m a Computer Science intermediate student in Karachi with certifications in Python and professional English. I like building with new technology and I’m always learning the next skill.</p>
+  </header>
+
+  <hr class="rule">
+
+  <section class="about" id="about" aria-labelledby="about-h">
+    <h2 id="about-h">About me</h2>
+    <p>I’m a Computer Science intermediate student from Nazimabad, Karachi. My studies and certifications focus on programming. I started with Python, added C++ and HTML, and I’m now learning cyber security.</p>
+    <p>I’ve also worked in a customer-facing role on an international campaign, so I’m used to explaining things clearly and working with a team, not only writing code.</p>
+    <p>I’m curious about how modern computing solutions are built and protected, and I enjoy picking up new skills.</p>
+  </section>
+
+  <section id="skills" aria-labelledby="skills-h">
+    <h2 id="skills-h">Skills</h2>
+    <div class="skills">
+      <div>
+        <h3>Programming</h3>
+        <ul>
+          <li>Python <span class="tag">certified</span><span class="d">A general-purpose language for scripts, automation, and problem solving.</span></li>
+          <li>C++ <span class="tag">certified</span><span class="d">A fast, compiled language that teaches how programs are structured and use memory.</span></li>
+          <li>HTML <span class="tag">certified</span><span class="d">The markup that structures every web page, including this one.</span></li>
+          <li>Cyber security <span class="tag">learning</span><span class="d">Studying how systems are attacked and how they are protected.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Language</h3>
+        <ul>
+          <li>English <span class="tag">certified</span><span class="d">Professional English certification for clear written and spoken communication.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Working with people</h3>
+        <ul>
+          <li>Teamwork<span class="d">Comfortable sharing the work and the credit.</span></li>
+          <li>Strong communication<span class="d">Explaining ideas simply, in speech and in writing.</span></li>
+          <li>Critical thinking<span class="d">Breaking a problem into parts before choosing a solution.</span></li>
+          <li>Brainstorming<span class="d">Generating options with others and narrowing them down.</span></li>
+          <li>Hard work<span class="d">Showing up and finishing what I start.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" aria-labelledby="cert-h">
+    <h2 id="cert-h">Certifications</h2>
+    <ul class="cert">
+      <li>Python programming language</li>
+      <li>English language</li>
+      <li>C++ programming</li>
+      <li>HTML</li>
+      <li>Cyber security (in progress)</li>
+    </ul>
+  </section>
+
+  <section id="experience" aria-labelledby="exp-h">
+    <h2 id="exp-h">Experience</h2>
+    <div class="exp">
+      <h3>International customer service representative</h3>
+      <p>US insurance campaign, 2 months</p>
+      <p>I served customers in the US as part of a campaign team. The role put my professional English, communication, and teamwork into daily practice.</p>
+    </div>
+  </section>
+
+  <section class="next" id="next" aria-labelledby="next-h">
+    <h2 id="next-h">Where I’m headed</h2>
+    <p>I’m finishing my cyber security course and want to apply Python, C++, and HTML to real projects. My goal is a career in computing where I can keep learning.</p>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Get in touch</h2>
+    <p>Email me for opportunities, projects, or questions.</p>
+    <p><a href="mailto:abdulrehmanfurqan2009@gmail.com">abdulrehmanfurqan2009@gmail.com</a></p>
+    <p><a href="tel:+923356660523">03356660523</a></p>
+    <p><a href="https://www.linkedin.com/in/abdul-rehman-441ba6407" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></p>
+    <p>Nazimabad, Karachi</p>
+  </section>
+
+  <footer>© Abdul Rehman</footer>
+</main>
+</body>
+</html>
